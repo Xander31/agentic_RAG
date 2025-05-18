@@ -1,0 +1,30 @@
+[project]
+name = "agentic-rag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "eespalv",email = "alvaro13espinoza@gmail.com"}
+]
+readme = "README.md"
+requires-python = "=3.10.11"
+dependencies = [
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "langchain (>=0.3.23,<0.4.0)",
+    "langgraph (>=0.3.31,<0.4.0)",
+    "langchainhub (>=0.1.21,<0.2.0)",
+    "langchain-community (>=0.3.21,<0.4.0)",
+    "tavily-python (>=0.5.4,<0.6.0)",
+    "langchain-chroma (>=0.2.3,<0.3.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "langchain-openai (>=0.3.14,<0.4.0)",
+    "pymupdf (>=1.25.5,<2.0.0)",
+    "langchain-tavily (>=0.1.6,<0.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

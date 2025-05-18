@@ -1,0 +1,5 @@
+✨ Runnable in Langchain:
+
+- A Runnable is a building block in LangChain.
+- It’s something you can run with .invoke(input) or .stream(input).
+- You can compose Runnables using |, map(), bind(), batch() to build flexible, powerful chains.
