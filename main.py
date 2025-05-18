@@ -3,7 +3,7 @@ from graph.graph import app
 
 load_dotenv()
 
-app.get_graph().draw_mermaid_png(output_file_path="CRAG_graph.png")
+app.get_graph().draw_mermaid_png(output_file_path="Self_RAG_graph.png")
 
 if __name__ == "__main__":
     print("Holas!")
